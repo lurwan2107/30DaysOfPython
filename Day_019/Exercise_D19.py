@@ -16,6 +16,6 @@ def count_words(words):
         wd = re.sub(r'[.,;"-]', '', txt)
         word = re.split(' ', wd)
         return f'number of words e hwva are {word}'
-    speechs = ["./data/Obama's_speech.txt", "./data/Michelle's_speech.txt", "./data/Trump's_speech", "./data/Melina's_speech"] 
-    for l in speechs:
-        print(count_words(l))
+speechs = ["./data/Obama's_speech.txt", "./data/Michelle's_speech.txt", "./data/Trump's_speech", "./data/Melina's_speech"] 
+for l in speechs:
+    print(count_words(l))

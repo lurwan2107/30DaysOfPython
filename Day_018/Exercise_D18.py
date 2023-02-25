@@ -9,7 +9,8 @@ for k in words:
     dict[k] = dict.get(k, 0) + 1
 sort = sorted(dict.items(), key= lambda i: i[1], reverse=True)
 for k, v in dict.items():
-    print(v, k)
+    tuple = (v, k)
+    print(tuple)
 
 
 
